@@ -1,3 +1,4 @@
+/*global module*/
 module.exports = {
     "env": {
         "browser": true,
@@ -9,5 +10,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "no-unused-vars": "off"
     }
+    
 }

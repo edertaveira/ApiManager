@@ -1,3 +1,4 @@
+/*global describe, global, jest, beforeEach, test, expect*/
 import ApiService from "./ApiService";
 const server = "https://jsonplaceholder.typicode.com";
 const users = [

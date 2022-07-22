@@ -1,3 +1,4 @@
+/*global describe, global, jest, beforeEach, beforeAll, test, expect*/
 import { Letter } from "./Letter";
 
 const users = [
