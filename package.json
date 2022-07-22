@@ -1,0 +1,25 @@
+{
+  "name": "Alticelabs",
+  "version": "1.0.0",
+  "description": "API Manager",
+  "main": "index.js",
+  "author": "Eder Taveira",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.14.49",
+    "esbuild-jest": "0.5.0",
+    "jest": "28.1.3"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "test-coverage": "jest --coverage",
+    "serve": "http-server ./src --port=8090"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
+  "dependencies": {
+    "dotenv": "16.0.1",
+    "http-server": "14.1.1"
+  }
+}
