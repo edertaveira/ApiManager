@@ -25,4 +25,7 @@ You can also run `npm run test-coverage` or `yarn test-coverage`.
 	
 	![Test Coverage Command](docs/img/testCoverageCommand.png)
 
+## Pre-commit
+We're using husky to run eslint and our unit tests in each commit, if it's not correct the commit is blocked.
+
 
